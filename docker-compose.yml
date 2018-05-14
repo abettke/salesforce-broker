@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  web:
+    build: .
+    tty: true
+    stdin_open: true
+    command: "npm start"
+    container_name: sf-broker
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - "8080:8080"

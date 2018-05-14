@@ -1,0 +1,17 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+node_modules/*
+
+.tmp/*
+jsdoc_output/*
+*-bundle.js
+.DS_Store
+.idea
+env/.env
+*.log
